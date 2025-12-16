@@ -1,0 +1,26 @@
+.board {
+  display: grid;
+  grid-template-columns: 30px repeat(8, 50px);
+  grid-template-rows: 30px repeat(8, 50px);
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  border:solid 1px black;
+}
+
+.black {
+  background: black;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.corner {
+  background: transparent;
+}

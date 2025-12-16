@@ -1,2 +1,0 @@
-# Crio-Projects
-Personal projects
